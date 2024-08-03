@@ -1,0 +1,147 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+body {
+   background-image: url('./imgs/baground.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   overflow-x: hidden;
+ }
+ .navbar {
+   background-color: #3b3f3f;
+ }
+ .navbar-brand, .navbar-nav .nav-link {
+   color: #fff;
+ }
+ #nav1{
+   font-size: 30px;
+   color: #f3f9fa;
+   font-family: "Jersey 20", sans-serif;
+      font-weight: 400;
+      font-style: italic;
+    
+ }
+.btn{
+   background-color: rgb(15, 137, 236);
+   color: aliceblue;
+}
+.btn:hover{   
+   color: black;
+   background-color: white;
+   border-color: rgb(20, 230, 245);
+   box-shadow: rgb(6, 178, 247);
+   border-width: 2px;
+
+}
+#i1{
+   height: 500px;
+   width:100%;
+}
+#t1{
+   font-weight: 800;
+   font-size: larger;
+}
+#t2{
+   font-weight: 700;
+   font-size: large;
+}
+#t3{
+   font-weight: 800;
+   color: rgb(255, 255, 255);
+   font-size: larger;
+}
+#d1{
+   font-family: "Jersey 25", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-size: larger;
+}
+#d2{
+   font-family: "Jersey 25", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+  font-size: 50px;
+
+}
+#d3{
+   font-family: "Jersey 25", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-top: -25px;
+  font-size: 50px;
+  padding-left: 0px;
+
+}
+#jk{
+   text-align: justify;
+}
+
+#i3{
+   height: 200px;
+   width: 100%;
+}
+.card-text{
+   text-align: justify;
+   font-weight: 500;
+
+}
+.card-title{
+   justify-content: center;
+   text-align: center;
+   display: flex;
+}
+#im1{
+  margin-top: 111px;
+}
+.accordion-item{
+   font-size: 10px;
+}
+.accordion-body {
+   font-family: Arial, sans-serif;
+   font-size: 16px;
+   font-weight: 600;
+ }
+@media (min-width: 576px) {
+   .col-sm-6 {
+     flex: 0 0 50%;
+     max-width: 50%;
+   }
+ }
+ 
+ @media (min-width: 768px) {
+   .col-md-3 {
+     flex: 0 0 25%;
+     max-width: 25%;
+   }
+ }
+ #icon{
+   animation: shake 5s;
+}
+
+   @keyframes shake {
+      10%{transform: rotate(35deg);
+
+      }
+      20%{
+         transform: rotate(-35deg);
+      }
+      30%{
+         transform: rotate(35deg);
+      }
+      40%{
+         transform: rotate(-35deg);
+      }
+      
+   }
